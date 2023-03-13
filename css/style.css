@@ -1,0 +1,210 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../css/stock6.webp);
+    background-size: cover;
+    background-position: center;
+}
+nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.logo{
+    color: olive;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: olive;
+    text-decoration: none;
+    font-weight: none;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+
+    color: burlywood;
+    transition: 4s;
+}
+.intro{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+h6{
+    color: black;
+    letter-spacing: 1px;
+}
+h3{
+    color:olive ;
+    font-size: 50px;
+    margin-bottom: 16px;
+    letter-spacing: 1px;
+}
+h4{
+    letter-spacing: 1px;
+}
+h5{
+    letter-spacing: 1px;
+}
+.image{
+    padding: 0% 70% ;
+}
+
+.active {
+    width: 100%;
+    padding: 1%;
+    background-image: url(../css/stock6.webp);
+    background-position: center;
+    background-size: cover;
+}
+.photo{
+    padding: 0% 0%;
+    height: 30%;
+    width: 420px;
+    left: 100%;
+
+
+}
+.about nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.into{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.content h5{
+    font-size: 120%;
+    padding-left: 5%;
+    color: olive;
+}
+span{
+    color: olive;
+}
+.topic{
+    padding-left: ;
+}
+.how{ width: 100%;
+    padding: 1%;
+    background-image: url(../css/stock6.webp);
+    background-position: 500%;
+    background-size: cover;
+    height: 650px;
+}
+.who h4{
+    padding-left: 5%;
+    color: olive;
+    padding-top: 5%;
+}
+.who{
+    padding-left: 4%;
+}
+.pics{
+    height: 100%;
+    padding-top: 1%;
+    padding-left: 40%;
+}
+.ture{
+    padding-left: 40%;
+    padding-bottom: 80px; 
+    height: 400px;
+    width: px;
+    position: absolute;
+}
+.crawl{
+    padding-left: 4%;
+}
+.alpha{width: 100%;
+    padding: 1%;
+    background-image: url(../css/stock6.webp);
+    background-position: 500%;
+    background-size: cover;
+    height: 650px;
+}
+.bold{
+    padding-left: 7%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    color: olive;
+}
+.name{
+    padding-left:4% ;
+    padding-bottom: 2%;
+    font-size: bold;
+}
+.happy{ width: 100%;
+    padding: 1%;
+    background-image: url(../css/stock6.webp);
+    background-position: 500%;
+    background-size: cover;
+    height: 100vh;
+}
+.like{
+    padding-left: 12%;
+    letter-spacing: 1px;
+    color: olivedrab;
+}
+.soft{
+    font-size: 30px;
+    color: olive;
+    padding-left: 8%;
+}
+.code{
+    padding: 13px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 6rem;
+    padding-left: 5%;
+    position: relative;
+}
+.nest{
+    padding: 10%;
+    display: grid;
+    height: 50vh;
+    color: olivedrab;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+.cake{
+    color: olive;
+    padding-left: 10%;
+    margin-bottom: 5%;
+    font-size: larger;
+}
+.footer{
+    padding: 100%;
+}
+.foot{
+    margin-top; 50%;
+}
+.button{
+
+}
+.ar{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 2rem;
+    height: 30vh;
+}
